@@ -101,6 +101,10 @@
 			margin-top: 2rem;
 		}
 
+		#socials a:last-child {
+			margin-top: 0.5rem;
+		}
+
 		#contact {
 			margin-left: 0rem;
 			text-align: left;
