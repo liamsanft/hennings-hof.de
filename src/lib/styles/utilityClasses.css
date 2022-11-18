@@ -1,0 +1,13 @@
+.serif {
+	font-family: 'Lora';
+}
+
+.sans-serif {
+	font-family: 'Satoshi';
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
