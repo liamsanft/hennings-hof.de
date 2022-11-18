@@ -58,26 +58,4 @@
 			margin-right: 1.6rem;
 		}
 	}
-
-	/* animation */
-	@keyframes fadeIn {
-		from {
-			opacity: 0;
-		}
-
-		to {
-			opacity: 1;
-		}
-	}
-
-	@supports (animation: fadeIn) {
-		@media (prefers-reduced-motion: no-preference) {
-			#logo-container {
-				opacity: 0;
-				animation-name: fadeIn;
-				animation-duration: 1.5s;
-				animation-fill-mode: forwards;
-			}
-		}
-	}
 </style>
