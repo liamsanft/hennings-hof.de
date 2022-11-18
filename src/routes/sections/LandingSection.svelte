@@ -72,13 +72,6 @@
 
 	@supports (animation: fadeIn) {
 		@media (prefers-reduced-motion: no-preference) {
-			#logo-container {
-				opacity: 0;
-				animation-name: fadeIn;
-				animation-duration: 1.5s;
-				animation-fill-mode: forwards;
-			}
-
 			#bottom-info {
 				opacity: 0;
 				animation-name: fadeIn;
