@@ -113,6 +113,7 @@
 		}
 
 		ul {
+			margin-left: 100%;
 			display: flex;
 			visibility: hidden;
 			width: 100%;
@@ -131,6 +132,7 @@
 		.visible {
 			visibility: visible;
 			opacity: 1;
+			margin-left: 0;
 		}
 
 		/* no transition for prefers reduced motion */

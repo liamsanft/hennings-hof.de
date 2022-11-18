@@ -19,8 +19,10 @@
 			<div id="socials" class="subcontainer">
 				<h2 class="serif">Mehr von uns</h2>
 				<a href="https://www.instagram.com/henningshof/" class="sans-serif">Instagram</a>
-				<a href="https://www.facebook.com/people/Henningshof/100086176788029/" class="sans-serif"
-					>Facebook</a
+				<a
+					href="https://www.facebook.com/people/Henningshof/100086176788029/"
+					id="facebook"
+					class="sans-serif">Facebook</a
 				>
 			</div>
 			<div id="contact" class="subcontainer">
@@ -82,6 +84,10 @@
 
 	#socials a {
 		font-size: 1.2rem;
+	}
+
+	#facebook {
+		margin-top: 0.5rem;
 	}
 
 	/* media queries */
