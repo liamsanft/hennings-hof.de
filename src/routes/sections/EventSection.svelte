@@ -182,6 +182,7 @@
 		width: 20rem;
 		height: 14rem;
 		transition: opacity 0.3s;
+		object-fit: cover;
 	}
 
 	.active {
