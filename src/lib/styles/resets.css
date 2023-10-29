@@ -1,0 +1,7 @@
+@layer base {
+  html,
+  body,
+  #svelte {
+    @apply h-full w-full;
+  }
+}

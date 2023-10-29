@@ -1,0 +1,52 @@
+---
+import MarginContainer from "../components/atoms/MarginContainer.astro";
+import { Image } from "astro:assets";
+import image from "../../content/media/image.jpg";
+---
+
+<section id="veranstaltungen">
+  <MarginContainer>
+    <h1 class="mt-10 font-serif text-3xl md:text-5xl">Veranstaltungen</h1>
+    <span class="mt-4 block h-[2px] w-full bg-black"></span>
+    <div class="mt-10">
+      <div class="flex flex-col lg:flex-row">
+        <div class="mr-10 flex flex-col">
+          <p class="text-lg">19.11.2023 - 23.12.2023</p>
+          <h2 class="mt-2 font-serif text-4xl font-bold md:text-5xl">
+            Adventszauber
+          </h2>
+          <p class="mt-1 text-lg">im Henningshof in Wandersleben</p>
+          <p class="mt-5 text-lg font-bold">
+            Ausstellung floraler Kreationen | Verkauf von Weihnachtsdekoration |
+            Glühweinhaus
+          </p>
+          <p class="mt-3">
+            Freut euch auf einzigartige florale Kunstobjekte in einem
+            stilvollen, historischen Ambiente, kreiert von Floraldesignern der
+            Region sowie auf weihnachtliche Accessoires und Dekoelemente
+            ausgewählter Interieur-Marken wie Räder Design und Co. für euer
+            Zuhause.
+          </p>
+          <div class="mt-5">
+            <h3 class="text-xl font-bold">Eintritt</h3>
+            <ul>
+              <li>Tageskarte: 3 €</li>
+              <li>Dauerkarte: 5 €</li>
+            </ul>
+          </div>
+          <div class="mt-5">
+            <h3 class="text-xl font-bold">Öffnungszeiten</h3>
+            <p>Do-So: 14:00 - 20:00 Uhr</p>
+          </div>
+        </div>
+        <div>
+          <Image
+            src={image}
+            alt="Weihnachten"
+            class="mt-10 w-full max-w-lg lg:w-[40rem]"
+          />
+        </div>
+      </div>
+    </div>
+  </MarginContainer>
+</section>
