@@ -1,6 +1,7 @@
 # hennings-hof.de
 
 Das Repository für den Henningshof in Wandersleben.
+
 [hennings-hof.de](https://hennings-hof.de)
 
 ## Setup
