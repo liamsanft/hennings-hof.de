@@ -1,4 +1,5 @@
 @import "resets.css";
+@import "changes.css";
 @import "fonts.css";
 
 @tailwind base;
